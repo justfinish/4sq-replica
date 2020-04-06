@@ -1,0 +1,344 @@
+body {
+    background-color: #EFEFF4;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+}
+
+#bar-top {
+    width: 100%;
+    height: 60px;
+    background-color: #2D5BE3;
+}
+
+#bar-top-content-wrapper {
+    /* position: static; */
+    width: 960px;
+    height: 60px;
+    margin: 0px auto;
+    /* background-color: white; */
+}
+
+#logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 184px;
+    height: 60px;
+}
+
+#logo img{
+    padding: 18px 20px 16px 20px;
+    width: 145px;
+    height: 26px;
+}
+
+#query-field {
+    /* position: static; */
+    display: inline-block;
+    vertical-align: top;
+    margin: 9px 10px 9px 0px;
+    width: 206px;
+    height: 42px;
+    background-color: white;
+    border-radius: 3px;
+    /* padding: 13px 12px; */
+}
+
+#query-field-text {
+    color: #949B9E;
+    margin: 13px 12px;
+    width: auto;
+}
+
+#location-field {
+    display: inline-block;
+    vertical-align: top;
+    width: 206px;
+    height: 42px;
+    margin: 9px 10px 9px 0px;
+    background-color: white;
+    border-radius: 3px;
+    /* padding: 13px 12px; */
+}
+
+#location-field-text {
+    color: #333333;
+    margin: 13px 12px;
+    width: auto;
+}
+
+#search-icon {
+    display: inline-block;
+    vertical-align: top;
+    width: 24px;
+    height: 24px;
+    margin: 18px 0px 18px 6px;
+    border-radius: 2px;
+    /* background-color: #d8d8d8; */
+}
+
+#search-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+#bar-shortcut {
+    height: 52px;
+    width: 100%;
+    background-color: #204DCC;
+}
+
+#section-title {
+    height: 390px;
+    width: 960px;
+    margin: 10px auto 0px;
+    border-radius: 3px;
+    background: #FFFFFF;
+    box-shadow: 0 1px 0 0 #C7CDCF;
+}
+
+#column-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 960px;
+    margin: 0px auto 0px;
+}
+
+#section-summary {
+    height: 367px;
+    width: 640px;
+    margin: 20px 15px 0px 0px;
+    border-radius: 3px;
+    background: #FFFFFF;
+    box-shadow: 0 1px 0 0 #C7CDCF;
+}
+
+#section-info {
+    /* position: relative; */
+    /* float: right; */
+    height: 808px;
+    width: 305px;
+    margin: 20px 0px 0px auto;
+    border-radius: 3px;
+    background: #FFFFFF;
+    box-shadow: 0 1px 0 0 #C7CDCF;
+}
+
+#section-review {
+    height: 1587px;
+    width: 640px;
+    margin: 20px 15px 0px 0px;
+    border-radius: 3px;
+    background: #FFFFFF;
+    box-shadow: 0 1px 0 0 #C7CDCF;
+}
+
+#footer {
+    height: 56px;
+    width: 640px;
+    margin: 20px 15px 20px 0px;
+}
+
+#block-photos {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width: 960px;
+    height: 210px;
+    /* background-color: white; */
+    border-bottom: 1px solid #EFEFF4;
+}
+
+.photo-thumbnail {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 5px -3px 5px 5px;
+    background-color: #EEE;
+}
+
+#photo-2 {
+    background-image: url("../img/eQD0LX8I8CVx0Av8p1-CzbEV7yIGsR7hiRLkfmK9g20.jpg")
+}
+
+#photo-3 {
+    background-image: url("../img/22402825_gbCYlj6MMJ9a83pUp5sGBN9K26tu5RGJb_MhqAkHih8.jpg")    
+}
+
+#photo-4 {
+    background-image: url("../img/9839170_IDr0bdrvwhHjGqkGClsvjrUM76jon5flfRn583TDG8o.jpg")
+}
+
+#block-title {
+    width: 960px;
+    height: 128px;
+    border-bottom: 1px solid #EFEFF4;
+}
+
+#block-title-thumbnail {
+    display: inline-block;
+    /* vertical-align: bottom; */
+    width: 88px;
+    height: 88px;
+    background-color: #EEE;
+    background-image: url("https://foursquare.com/img/categories/food/french_88.png");
+    margin: 20px;
+}
+
+#block-title-text-wrapper{
+    display: inline-block;
+    vertical-align: bottom;
+    height: 88px;
+    margin-bottom: 20px;
+}
+
+#restaurant-name {
+    font-family: HelveticaNeue-Bold;
+    font-size: 27px;
+    line-height: 32px;
+    color: #4E595D;
+    letter-spacing: -0.6px;
+    margin-bottom: 8px;
+}
+
+#restaurant-type {
+    display: inline;
+    color: #949B9E;
+    line-height: 16px;
+    margin-bottom: 4px;
+    margin-right: 15px;
+}
+
+#dollar-sign{
+    display: inline;
+    line-height: 16px;
+    color: #949B9E;
+}
+
+#location{
+    font-size: 14px;
+    color: #949B9E;
+    line-height: 16px;
+    margin-bottom: 6px;
+}
+
+#block-tab {
+    display:inline-block;
+    vertical-align: top;
+    background: #F7F7FA;
+    width:654px;
+    height:50px;
+}
+
+#block-rating {
+    dispaly:inline-block;
+    vertical-align: top;
+    width:300px;
+    height:50px;
+}
+
+.tab-selected{
+    display: inline-block;
+    height: 50px;
+    margin: 0px 20px 0px 20px;
+    border-bottom: 2px solid #4E595D;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.tab-seam{
+    display: inline-block;
+    height: 16px;
+    width: 1px;
+    background-color: #C6CDCF;
+    vertical-align: center;
+}
+
+.tab{
+    display: inline-block;
+    height: 50px;
+    margin: 0px 20px 0px 20px;
+}
+
+.tab-name-selected{
+    display: inline-block;
+    color: #4E595D;
+    margin-top: 16px;
+    font-weight: 700;
+}
+
+.tab-name{
+    display: inline-block;
+    color: #2D5BE3;
+    margin-top: 16px;
+    font-weight: 700;
+}
+
+#tab-count-tips{
+    display: inline;
+    font-size: 12px;
+    margin-left: 3px;
+    color: #949B9E;
+} 
+
+#tab-count-photos{
+    display: inline;
+    font-size: 12px;
+    margin-left: 3px;
+    color: #949B9E;
+} 
+
+#block-rating {
+    display: inline-block;
+}
+
+#rating-badge {
+    display: inline-block;
+    vertical-align: top;
+    width: auto;
+    height: 34px;
+    background-color: #73CE42;
+    border-radius: 3px;
+    margin: 8px 8px 8px 15px;
+}
+
+#rating-score {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    font-weight: 800;
+    color: white;
+    margin: 7px 3px 8px 10px;
+}
+
+#total-score {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 10px;
+    font-weight: 600;
+    color: white;
+    margin: 5px 6px 13px 0px;
+}
+
+
+#rating-text-wrapper{
+    display: inline-block;
+    vertical-align: top;
+    height: 30px;
+    margin: 10px 0px;
+}
+
+#rating-count {
+    display: block;
+    color: #4E595D;
+    line-height: 16px;
+    margin-bottom: -2px;
+}
+
+#rating-count-text {
+    display: inline;
+    font-size: 12px;
+    margin-top: -2px;
+    line-height: 12px;
+    color: #949B9E;
+}
